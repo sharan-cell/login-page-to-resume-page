@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Shippori+Mincho+B1:wght@500&display=swap" rel="stylesheet">
+
+<style>
+	html{
+		scroll-behavior: smooth;
+		transition: 0.4s;
+	}
+	body{
+		
+		background-repeat: no-repeat;
+		background-size: cover;
+		
+
+	
+
+		
+	}
+	.para{
+		color: white;
+		font-size: 40px;
+		position: absolute;
+		right: 25px;
+		padding-top: 20px;
+	}
+	.menu{
+		background: gray;
+		padding: 20px 0;
+		border-radius: 20px;
+		
+		position: fixed;
+		width: 100%;
+
+
+	}
+
+	.menu ul{
+		margin: 0;
+		padding: 0;
+		text-align: center;
+
+	}
+	.menu ul li{
+		list-style: none;
+		margin: 0 20px;
+		display: inline;
+	}
+	.menu ul li a{
+		color: white;
+		text-decoration: none;
+		font-size: 20px;
+		line-height: 10px;
+		text-transform: uppercase;
+		padding: 15px 20px;
+		display: inline-block;
+		
+	}
+
+	.menu ul li a:hover{
+		background: red;
+
+	}
+	.section1, .section2, .section3, .section4, .section5{
+		min-height: 100vh;
+		display: flex;
+		left: 25px;
+		padding-top: 100px;
+	
+		font-size: 50px;
+		text-transform: uppercase;
+		color: red;
+
+
+	
+	}
+	.section2 p{
+		color: white;
+		font-size: 40px;
+
+	}
+	.section2 ul{
+		list-style: none;
+
+	}
+	.dropbtn{
+		background-color: gray;
+		color: white;
+		padding: 10px;
+		font-size: 18px;
+		border: none;
+		cursor: pointer;
+		text-transform: uppercase;
+		font-family: 'Shippori Mincho B1', serif;
+		padding: 15px 20px;
+
+		
+	}
+	.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.drop-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 100px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.drop-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.drop-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .drop-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: red;
+
+}
+	.section4 p{
+		color: white;
+		font-size: 20px;
+		padding-top: 100px;
+	}
+.section5 p{
+		color: white;
+		font-size: 20px;
+		padding-top: 100px;
+}
+.section3 ul{
+	list-style: none;
+}
+</style>
+</head>
+<body background="C:\Users\speed\Downloads\intro tile.jpg">
+
+
+	<header class="navbar">
+		<div class="menu">
+			<ul>
+				<li><a href="#home">home</a></li>
+				<div class="dropdown">
+					<button class="dropbtn">About</button>
+					<div class="drop-content">
+						<a href="#about">Hobbies</a>
+						<a href="#interest">Interest</a>
+						<a href="#Psummary">Peronal summary</a>
+						<a href="#Prsummary">Professional summary</a>
+					</div>
+				</div>
+				
+
+			</ul>
+		</div>
+		<section id="home" class="section1">
+			<p class="para">Hello my name is Sharanu belaki from pune.<br>
+				I'm a S.E.I.T engineering student in <br>PGMCOE collge of Engineering wagholi.</p></section>
+		<section id="about" class="section2">Hobbies
+			
+				<ul>
+					<li>
+						<p class="para">drawing</p>
+					</li><br>
+					<li><p class="para">sketching</p></li><br>
+					<li><p class="para">reading</p></li><br>
+					<li> <p class="para">playing games</p></li>
+				</ul>
+			</section>
+		<section id="interest" class="section3">Interest
+				<ul>
+					<li>
+						<p class="para">Programming</p>
+					</li><br>
+					<li><p class="para">Lerning new things</p></li><br>
+					<li><p class="para">Net surfing</p></li><br>
+					<li> <p class="para">Web developement</p></li>
+				</ul></section>
+		<section id="Psummary" class="section4">Personal summary
+			<p>Basically im a I.T Engineering student persuing second year of enginnering at PGMCOE college wagholi,pune.<br>
+			enthusiastic, highly-motivated economics student with proven leadership capabilities, who likes to take initiative and seek out new challenges.</p></section>
+		<section id="Prsummary" class="section5">Profesional summary
+			<p>programmming skills:<br>
+				c,c++,python,javascript<br><br><br>
+				mark-up  languages:<br>
+			html,css</p></section>
+	</header>
+
+
+</body>
+</html>
